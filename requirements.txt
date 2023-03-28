@@ -4,6 +4,7 @@ keyring==23.13.1
 matplotlib==3.7.1
 nvdlib==0.7.1
 pandas==1.5.3
+pathvalidate==2.5.2
 pymongo==4.3.3
 scikit-learn==1.2.1
 voila==0.4.0
