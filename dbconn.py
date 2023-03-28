@@ -2,7 +2,7 @@ from pymongo import MongoClient
 import keyring
 def get_database():
   service_id = "VPEngine"
-  username = "ecqmvxqy"  
+  username = "wgu-capstone-ro"  
   password = keyring.get_password(service_id, username)
   # Provide the mongodb atlas url to connect python to mongodb using pymongo
   CONNECTION_STRING = "mongodb+srv://{}:{}@vulnerabilityprediction.5iuxtrr.mongodb.net/?retryWrites=true&w=majority".format(username,password)
